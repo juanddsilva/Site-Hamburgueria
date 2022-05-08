@@ -18,7 +18,8 @@
     justify-content: space-around;
     padding: 24px;
     flex-wrap: wrap;
-    background: linear-gradient(90deg, rgba(242, 100, 34, 0.9304096638655462) 0%, rgba(252, 253, 29, 0.9556197478991597) 50%, rgba(255, 103, 38, 0.76234243697479) 100%);
+    background:black;
+    color: white;
 }
 
 .cabecalho-logo {
@@ -37,9 +38,9 @@
 
 .cabecalho-menu :hover{
 
-    color: rgb(0, 0, 0);
-    transition:  0.4s;
-    transform: scale(1.2);
+    color: rgb(255, 255, 255);
+    transition:  0.20s;
+    transform: scale(1.5);
     
 
 }
@@ -53,21 +54,27 @@
 }
 
 .sobre-bloco-texto {
+    width: 50%;
     text-align: center;
 }
 
 .sobre-image {
-    width: 775px;
+    width: 50%;
     border-radius: 20px;
     margin-left: 15px;
 }
+.sobre-titulo {
+    font-size: 2.5vw;
+    
+}
 
 .sobre-paragrafo {
-    font-size: 22px;
-    padding: 42px;
+    font-size: 1.8vw;
+    padding: 4vw;
 }
 
 .oferecimento {
+    max-width: 1200px;
     background: linear-gradient(90deg, rgba(242, 100, 34, 0.9304096638655462) 0%, rgba(252, 253, 29, 0.9556197478991597) 50%, rgba(255, 103, 38, 0.76234243697479) 100%);
 
 
@@ -86,12 +93,12 @@
 
 
 .oferecimento-titulo {
-    font-size: 35px;
+    font-size: 2rem;
     padding: 10px;
 }
 
 .oferecimento-paragrafo {
-    font-size: 22px;
+    font-size: 1.5rem;
 
 }
 
@@ -105,25 +112,37 @@
 }
 
 .oferecimento-titulo-image {
-    font-size: 22px;
+    font-size: 1.5rem;
     padding: 10px;
 }
 
 .oferecimento-paragrafo-image {
-    font-size: 18px;
+    font-size: 1.2rem;
     font-style: italic;
     max-width: 280px;
     margin: 0 auto;
 
 }
 
+.oferecimento-bloco-image{
+
+    width: 100%;
+
+}
+
 .oferecimento-image {
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 15px;
-    width: 550px;
-    padding: 0 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+   width: 80%;
+    
     border-radius: 50px;
 
 }
+
 
 .bloco-formulario{
     display: flex;
