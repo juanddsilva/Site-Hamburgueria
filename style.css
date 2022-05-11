@@ -11,25 +11,32 @@
 
 }
 
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
 .cabecalho {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 24px;
+    
     flex-wrap: wrap;
     background:black;
     color: white;
 }
 
 .cabecalho-logo {
-    font-size: 30px;
+    margin-top: 1rem;
+    font-size: 3rem;
 }
 
 .cabecalho-menu {
     display: flex;
-    gap: 40px;
-    font-size: 20px;
+    gap: 5rem;
+    font-size: 1.8rem;
+    padding: 3rem;
 }
 .cabecalho-menu-item{
     
@@ -46,31 +53,33 @@
 }
 
 .sobre {
-    margin-top: 20px;
+    margin-top: 1rem;
     display: flex;
     width: 100%;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
 }
 
 .sobre-bloco-texto {
-    width: 50%;
+    width: 40%;
+    padding: 1.8rem;
     text-align: center;
+
 }
 
 .sobre-image {
-    width: 50%;
-    border-radius: 20px;
-    margin-left: 15px;
+    width: 55%;
+    border-radius: 2rem;
+    margin-left: 1rem;
 }
 .sobre-titulo {
-    font-size: 2.5vw;
+    font-size: 1.8rem;
     
 }
 
 .sobre-paragrafo {
-    font-size: 1.8vw;
-    padding: 4vw;
+    font-size: 1.5rem;
+    padding: 1rem;
 }
 
 .oferecimento {
@@ -98,7 +107,7 @@
 }
 
 .oferecimento-paragrafo {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 
 }
 
@@ -112,12 +121,12 @@
 }
 
 .oferecimento-titulo-image {
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 10px;
 }
 
 .oferecimento-paragrafo-image {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     font-style: italic;
     max-width: 280px;
     margin: 0 auto;
@@ -148,34 +157,43 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: space-evenly;
 }
 
 .form-img{
-    width: 55%;
-    margin-top: 30px;
-    border-radius: 20px;
+    width: 60%;
+    margin-top: 1rem;
+    border-radius: 2.5rem;
 }
 
 .formulario{
+
+    margin-top: 1rem;
+    background-color: rgb(255, 236, 127);
     display: flex;
-    width: 40%;
+    width: 41%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 1.5rem;
+    max-width: 30%;
+    border-radius: 2rem;
+    gap: 1.5rem;
     
 }
 
-.input-form{
-    padding: 10px;
-    border: 1px solid black;
-    width: 65%;
-    margin: 3px;
-
+.formulario input{
+    width: 70%;
+    text-align: center;
+    
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
 }
 
-.form-btn{
-    margin-top: 8px;
-    padding: 5px;
-}
+
+   
+
+
 
